@@ -1,0 +1,29 @@
+/* GroupConfig.module.css */
+
+/* Existing styles for the centered layout */
+.centered {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px; /* Add some padding to prevent layout shifts */
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
+
+
+  /* Additional styles for the bottom buttons */
+  .buttonContainer {
+    margin-top: auto; /* Push the button container to the bottom */
+    display: flex;
+    gap: 1rem; /* Add some spacing between buttons */
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: flex-end; /* Align the buttons at the bottom */
+  }
+  
+  /* Reset h2 element styles within GroupConfig */
+  .groupConfigH2 {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    margin: 0;
+    font-weight: bold;
+  }

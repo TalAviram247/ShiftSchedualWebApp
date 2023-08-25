@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.content {
+  margin-top: 16px;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button.red {
+  background-color: red;
+}
+
+.button.red:hover {
+  background-color: #e53935;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+.groupList {
+  list-style-type: none; /* Removes the bullet points */
+  padding: 0;
+}
+
+.groupItem {
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.groupItem:hover {
+  background-color: #07acee;
+}
+
+.groupName {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+/* .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  text-align: center;
+} */
